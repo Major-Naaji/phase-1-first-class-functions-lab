@@ -1,5 +1,4 @@
 //  Code your solution in this file
-
 const drivers = ["Antonia", "Nuru", "Amari", "Mo"];
 const returnFirstTwoDrivers = function () {
   return drivers.slice(0, 2);
@@ -21,4 +20,4 @@ const fareTripler = function (tripleFare) {
 };
 const selectDifferentDrivers = function (drivers, returnDrivers) {
   return returnDrivers(drivers);
-}; 
+}
